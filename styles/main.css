@@ -20,16 +20,7 @@
   --font-body: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #131416;
-    --paper: #111215;
-    --ink: #f3f4f6;
-    --muted: #a3a3a3;
-    --chip-bg: #23242a;
-    --shadow: 0 8px 24px rgba(0,0,0,0.35);
-  }
-}
+/* Removed dark mode to keep cute peachy background on all devices */
 
 * { box-sizing: border-box; }
 html, body { height: 100%; }
